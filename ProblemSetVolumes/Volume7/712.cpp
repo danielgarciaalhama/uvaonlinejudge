@@ -1,7 +1,10 @@
 /*
-When we are facing a problem represented by trees, the first approach usually is implementing a tree structure. This problem could be resolved using that approach, but creating the objects and accessing to the data could be more expensive than needed. 
+When we are facing a problem represented by trees, the first approach usually is implementing a tree structure. 
+This problem could be resolved using that approach, but creating the objects and accessing to the data could be 
+more expensive than needed. 
 
-To resolve this problem we have, for each tree, the leafs, the cases (m and the vva) and the order to process the cases (x1,x2 ..xn). For each case we only have to calculate the index of the leaf that will be the result.
+To resolve this problem we have, for each tree, the leafs, the cases (m and the vva) and the order to process the cases (x1,x2 ..xn). 
+For each case we only have to calculate the index of the leaf that will be the result.
 
 Check the comments into the source code for more info.
 */
