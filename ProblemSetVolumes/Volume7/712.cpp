@@ -1,6 +1,6 @@
 /*
 When we are facing a problem represented by trees, the first approach usually is implementing a tree structure. 
-This problem could be resolved using that approach, but creating the objects and accessing to the data could be 
+This problem could be resolved using that approach, but creating the objects and accessing to the data will be 
 more expensive than needed. 
 
 To resolve this problem we have, for each tree, the leafs, the cases (m and the vva) and the order to process the cases (x1,x2 ..xn). 
@@ -61,8 +61,8 @@ int main() {
 			indexIncrement = index >> 1;
 
 			for (int i = 0; i < n-1; i++) {
-				/*We process each digit of the vva (except last, special case). 
-				It will increase or decrease the index (going right or left)*/
+				/*We process each digit of the vva (except last, special case). It will increase or decrease 
+				the index (going to the right child or to the left)*/
 				index += (aux[order[i]] == '1' ? indexIncrement : 0-indexIncrement);	
 				indexIncrement >>= 1;
 			}
