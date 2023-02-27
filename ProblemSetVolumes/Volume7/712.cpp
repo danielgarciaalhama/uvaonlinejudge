@@ -41,9 +41,9 @@ int main() {
 	
 	
 		cin >> terminalNodes >> m;
-		
+
 		// Process the m vva
-		for (; m > 0; --m) {
+		while (m-- > 0) {
 
 			cin >> aux;
 
